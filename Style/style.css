@@ -152,3 +152,46 @@ body {
             align-items: center;
         }
     }
+    /* lover section */
+    .plants-lover {
+        margin: 10px;
+    }
+
+    .lover-text h2 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .lover-text p {
+        color: #000000;
+        font-size: 22px;
+    }
+
+    .lover-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 80px;
+    }
+
+    .badge img {
+        height: 300px;
+        /* width: 300px; */
+    }
+
+    .badge {
+        position: relative;
+        height: 100px;
+        left: 360px;
+    }
+
+    @media screen and (max-width: 576px) {
+        .badge {
+            visibility: hidden;
+        }
+
+        .lover-section {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
