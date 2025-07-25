@@ -1,0 +1,86 @@
+body {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
+    .btn {
+        background-color: #E95A08;
+        padding: 20px;
+        color: #FFFFFF;
+        border: none;
+        font-size: 16px;
+        font-weight: 600px;
+    }
+
+    /* nav section with responsive*/
+    .list a {
+        text-decoration: none;
+        color: #8987A1;
+    }
+
+    .list ul li {
+        list-style: none;
+        font-size: 18px;
+    }
+
+    .list ul {
+        display: flex;
+        justify-content: space-between;
+        gap: 48px;
+    }
+
+    .nav-section {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    @media screen and (max-width: 576px) {
+        .list ul {
+            visibility: hidden;
+        }
+
+        .cart {
+            visibility: visible;
+        }
+    }
+
+    /* banner section */
+    .banner-text h1 {
+        font-size: 45px;
+        font-weight: bold;
+        margin-bottom: 1px;
+    }
+
+    .banner-text h1 span {
+        color: #E95A08
+    }
+
+    .banner-text p {
+        color: #000000;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .banner {
+        margin-top: 180px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    @media screen and (max-width: 576px) {
+        .banner {
+            flex-wrap: wrap-reverse;
+        }
+
+        .banner-text h1 {
+            font-size: 24px;
+        }
+
+        .banner-text {
+            margin: 10px;
+            width: 100%;
+        }
+    }
